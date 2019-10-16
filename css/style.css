@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans" sans-serif;
+    background: white;
+    color: #7f888f;
+    line-height: 1.65;
+}
+ /*Sidebar*/
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: -260px;
+    width: 260px;
+    height: 100%;
+    background: #f5f6f7;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.sidebar h2{
+    font-size: 1.38889em;
+    display: inline-block;
+    padding: 0px 13px 9px 0;
+    margin-left: 30px;
+    border-bottom: 3px solid coral;
+}
+
+.sidebar ul{
+    margin: 3;
+    padding: 20px 0;
+}
+
+.sidebar ul li{
+    margin: 30px;
+    list-style: none;
+    border-bottom: 1px solid grey;
+    text-align: center;
+}
+
+.sidebar ul li a{
+    color:  black;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 1px 20px;
+    transition: 0.5s;
+}
+
+.sidebar ul li a i{
+    padding: 15px;
+}
+
+.sidebar ul li:hover a{
+    transform: translate(10px);
+}
+
+.sidebar ul li a:hover{
+    color: coral;
+}
+
+
+.fad{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    right: -50px;
+    content: '\f0c9';
+    font-size: 2em;
+    color: coral;
+    font-family: fontAwesome;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.active{
+    left: 0;
+}
+
+/*container*/
+
+.container{
+    padding: 0em 4em 0em 4em;
+}
+
+.container .main .inner .header{
+    padding-top: 3em;
+    padding-bottom: 0.1em;
+    border-bottom: solid 3px coral;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .main .inner .header a{
+    text-decoration: none;
+    margin: 0 0 5px 20px;
+}
+
+.header .logo{
+    border-bottom: 0;
+    color: inherit;
+    font-family: "Roboto Slab", serif;
+    font-size: 2em;
+}
+
+.menu > li{
+    border-bottom: 1px solid coral;
+}
+
+.container .main .inner .header nav ul li a{
+    color: #3d4449;
+}
+.container .main .inner .header nav ul li a:hover{
+    color: coral;
+}
+
+.container .main .inner .header strong{
+    background: coral;
+    color: white;
+}
+ 
+.social-links{
+    list-style: none;
+    padding: 0;
+    margin-top: 0em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social-links li a{
+    font-size: 2em;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.about > .container{
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+
+.about > .container > .content p:last-child{
+    line-height: 1.65;
+}
+
+
+
+header p{
+    font-family: "Roboto Slab", serif;
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 0.075em;
+    margin-top: -0.5em;
+    text-transform: uppercase
+}
+
+p{
+
+    padding: 30px 0px 0px 0px;
+    letter-spacing: 1.65;
+}
+
+h1{
+    color: #3d4449;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    font-size: 5.5em;
+    margin-top: 0px;
+    margin-bottom: 30px;
+
+}
+
+img{
+    height: 500px;
+    border-radius: 10%;
+}
+
+.im-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 30px;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+
+}
