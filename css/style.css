@@ -178,12 +178,11 @@ h1{
     font-size: 5.5em;
     margin-top: 0px;
     margin-bottom: 30px;
-
 }
 
 img{
-    height: 500px;
-    border-radius: 10%;
+    height: 450px;
+    border-radius: 20%;
 }
 
 .im-header{
@@ -191,8 +190,37 @@ img{
     flex-direction: row;
     justify-content: center;
     margin-bottom: 30px;
-    height: 90px;
-    width: 90px;
+    height: 80px;
+    width: 100px;
     border-radius: 50%;
 
+}
+
+footer .fi{ 
+
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .two{
+    text-align: center;
+}
+
+footer{
+    border-top:solid 3px coral;
+    padding: 0px 13px 9px 0;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+button{
+    height: 40px;
+    width: 80px;
+    color: white;
+    background-color: #3d4449;
+}
+
+button:hover{
+    color: #3d4449;
+    background-color: white;
 }

@@ -54,3 +54,5 @@ list.forEach(element => {
 
     cont1++;
 });
+
+
